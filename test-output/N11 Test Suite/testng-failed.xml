@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [N11 Test Suite]">
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="com.framework.testframework.AppTest1">
+        <methods>
+          <include name="Test02_ValidateSignInScreen"/>
+          <include name="Test02_ValidateLocationScreen"/>
+          <include name="startUp"/>
+          <include name="Test03_ValidateHomeScreen"/>
+          <include name="Test01_ValidateSignUpScreen"/>
+        </methods>
+      </class> <!-- com.framework.testframework.AppTest1 -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [N11 Test Suite] -->
